@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch the Ebay Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1955183909,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to Ebay\u0027s Website",
+            "match": {
+              "location": "StepDefinition.iNavigateToEbaySWebsite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2604175122,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search for a bike on Ebay and validate that the bike selected by the user is displayed correctly in the shopping cart section",
+        "description": "",
+        "id": "search-for-a-bike-on-ebay-and-add-that-to-the-shopping-cart;search-for-a-bike-on-ebay-and-validate-that-the-bike-selected-by-the-user-is-displayed-correctly-in-the-shopping-cart-section",
+        "after": [
+          {
+            "result": {
+              "duration": 335786637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1909859378,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for a bike",
+            "match": {
+              "location": "StepDefinition.iSearchForABike()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6078640718,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I choose the first bike displayed in the search results",
+            "match": {
+              "location": "StepDefinition.iChooseTheFirstBikeDisplayedInTheSearchResults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2968121178,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add the bike to shopping cart",
+            "match": {
+              "location": "StepDefinition.iAddTheBikeToShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637267921,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to see the selected bike under the shopping cart section",
+            "match": {
+              "location": "StepDefinition.iShouldBeAbleToSeeTheSelectedBikeUnderTheShoppingCartSection()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Launch the Ebay Website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1528598462,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to Ebay\u0027s Website",
+            "match": {
+              "location": "StepDefinition.iNavigateToEbaySWebsite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2735379542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should be shown the appropriate error message when the user clicks on Continue Button on MyEbay page without providing login credentials",
+        "description": "",
+        "id": "search-for-a-bike-on-ebay-and-add-that-to-the-shopping-cart;user-should-be-shown-the-appropriate-error-message-when-the-user-clicks-on-continue-button-on-myebay-page-without-providing-login-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 141917774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1750427217,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on MyEbay link",
+            "match": {
+              "location": "StepDefinition.iClickOnMyEbayLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108889534,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Continue button without providing login credentials",
+            "match": {
+              "location": "StepDefinition.iClickOnContinueButtonWithoutProvidingLoginCredentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85153848,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see an error message on the page saying that the details provided does not match",
+            "match": {
+              "location": "StepDefinition.iShouldBeAbleToSeeAnErrorMessageOnThePageSayingThatTheDetailsProvidedDoesNotMatch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for a bike on Ebay and add that to the shopping cart",
+    "description": "",
+    "id": "search-for-a-bike-on-ebay-and-add-that-to-the-shopping-cart",
+    "keyword": "Feature",
+    "uri": "EbayShopping.feature"
+  }
+]
